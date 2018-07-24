@@ -14,6 +14,7 @@ class App extends Component {
     this.setState({ messages: val })
   }
   render() {
+    //joe was here
     return (
       <div className="App">
         <input type="text" onChange={(e) => this.handleMessage(e.target.value)} />
